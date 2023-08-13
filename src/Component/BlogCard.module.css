@@ -1,0 +1,25 @@
+.NewBlogCard {
+    margin: 16px;
+    padding: 16px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px #ccc;
+    background-color: lightcyan;
+    font-size: 24px;
+}
+
+.NewBlogCard>button {
+    font-size: 24px;
+}
+
+.LikeCount {
+    font-weight: 600;
+    font-size: 28px;
+}
+
+@media (min-width: 992px) {
+    .NewBlogCard {
+        width: 50%;
+        display: inline-block;
+    }
+}
